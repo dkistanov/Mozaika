@@ -10,8 +10,7 @@ $(".present_adaptive .slider__item-image").each(function(index){
 
 $(".present__slider").slick({
     infinite: true,
-    speed: 500,
-    fade: true,
+    speed: 300,
     cssEase: 'linear',
     prevArrow: $('.present__arrow.arrow_back'),
     nextArrow: $('.present__arrow.arrow_next')   
